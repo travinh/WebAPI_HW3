@@ -78,7 +78,7 @@ function avault(){
     var keyName = 'key1';
     vault.generateKey(keyName).then(
         function(keyResponse) {
-            vault.store(keyName, '{"token": "b3d5244c25a828025602a43ef56acd33186b86ea"}', 'sigad').then(
+            vault.store(keyName, '{"token": "ACCESS_TOKEN_HERE"}', 'sigad').then(
                 function (storeResponse) {
                     console.log('ok', storeResponse);
                 },
