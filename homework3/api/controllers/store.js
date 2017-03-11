@@ -1,0 +1,6 @@
+module.exports = {
+	"sigad": {
+		"key": "key1",
+		"data": "528d4204409c6820de2b02032630528f47e1dc5cc171e8ef160a9f67cf676d1621f8bc76354220fa6ae8724f5c1a3add73426603fa86d3b23b0a312e67895e2a"
+	}
+};
