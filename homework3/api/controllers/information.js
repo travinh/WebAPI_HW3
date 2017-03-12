@@ -78,7 +78,7 @@ function avault(){
     var keyName = 'key1';
     vault.generateKey(keyName).then(
         function(keyResponse) {
-            vault.store(keyName, '{"token": "ACCESS_TOKEN_HERE"}', 'sigad').then(
+            vault.store(keyName, '{"token": "access_token"}', 'sigad').then(
                 function (storeResponse) {
                     console.log('ok', storeResponse);
                 },
@@ -90,4 +90,4 @@ function avault(){
         console.log('Error',err);
         });
 }
-    */
+*/
